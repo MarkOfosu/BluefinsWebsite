@@ -1,0 +1,74 @@
+
+.coaches_list{
+    text-align: center;
+      border: 1px solid rgb(57, 61, 11);
+      border-radius: 15px;
+      background-color: #39f9f0;
+      
+}
+.coaches_card{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-column-gap: 5px;
+  
+    margin:  20px 10px;
+    cursor: pointer;
+    text-align: left;
+    
+   
+    background: linear-gradient(
+        to left,
+        rgb(94, 164, 199) 0%,
+        rgba(64, 141, 151, 0.101) 100%
+       
+      );
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(80);
+    transition: transform 0.25s ease-out;
+
+}
+.coaches_card:hover {
+    transform: scale(1.05);
+  }
+  .coaches_card p{
+    line-height: 50px;
+    font-style: italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Bigelow Rules', cursive;
+    font-family: 'Rubik Gemstones', cursive;
+    font-family: 'Rubik Moonrocks', cursive; */
+  }
+
+
+  .coaches_card img{
+    width:350px;
+    height: 350px;
+    align-self: stretch;
+  }
+  footer{
+    /* used immediately after float */
+    /* clear: both; */
+  }
+
+@media only screen and (max-width: 900px) {
+  .coaches_card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5px;
+  }
+  
+}
+
+  .coachNameAndTitle{
+    border-bottom: 2px solid pink;
+    width: 350px;
+    text-align: center;
+    border-right: 2px solid pink;
+    box-shadow: 8px 8px 10px #473434;
+}
+
+
+
+
+

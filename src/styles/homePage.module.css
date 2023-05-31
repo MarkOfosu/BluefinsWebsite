@@ -1,0 +1,32 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    margin:  20px 10px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.slider {
+    background: #d28706;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    grid-column: 1/2;
+}
+
+.announcement {
+    background: #13a20e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    grid-column: 2/3;
+}
+
+.contact {
+    background: #cc3a3a;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    grid-column: 3/4;
+}
